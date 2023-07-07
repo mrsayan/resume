@@ -1,0 +1,152 @@
+\documentclass[]{resume-openfont}
+
+\pagestyle{fancy}
+\resetHeaderAndFooter
+
+%--------------------------------------------------------------
+% Convenience command - make it easy to fill template
+
+% Create job position command. Parameters: company, position, location, when
+\newcommand{\resumeHeading}[4]{\runsubsection{\uppercase{#1}}\descript{ | #2}\hfill\location{#3 | #4}\fakeNewLine}
+
+% Create education heading. Parameters: Name, degree, location, when
+\newcommand{\educationHeading}[4]{\runsubsection{#1}\hspace*{\fill}  \location{#4}\\
+\descript{#2}\hspace*{\fill}  \location{#3} \fakeNewLine\\}
+
+% Create project heading. Parameters: Name, link, Tech stack
+\newcommand{\projectHeading}[3]{\Project{#1}{#2}
+\descript{#3}\\}
+
+\newcommand{\projectHeadingWithDate}[4]{\Project{#1}{#2}
+\descript{#3 | #4}\\}
+
+% Parameters: courses
+\newcommand{\courseWork}[1]{\textbf{Coursework:} #1}
+
+% Parameters: courses
+\newcommand{\cgpa}[1]{\textbf{Cum. GPA:} #1}
+ 
+%--------------------------------------------------------------
+\begin{document}
+
+%--------------------------------------------------------------
+%     Profile
+%--------------------------------------------------------------
+\newcommand{\yourName}{Sayan Hazra}
+% How you want it to show up on the resume
+\newcommand{\yourWebsite}{codechef/mrsayan}
+
+\newcommand{\yourWebsiteLink}{https://www.codechef.com/users/mrsayan}
+\newcommand{\yourEmail}{iamsayan568@gmail.com}
+\newcommand{\yourPhone}{+91-7278477569}
+\newcommand{\githubUserName}{mrsayan}
+\newcommand{\linkedInUserName}{mrsayan}
+
+\begin{center}
+    \Huge \scshape \latoRegular{\yourName} \\ \vspace{1pt}
+    \small \href{mailto:\yourEmail}{\underline{\yourEmail}}  $|$  \yourPhone $|$ 
+    \href{https://www.linkedin.com/in/\linkedInUserName}{\underline{linkedIn/\linkedInUserName}} $|$
+    \href{https://github.com/\githubUserName}{\underline{github/\githubUserName}} 
+    $|$ \href{\yourWebsiteLink}{\underline{\yourWebsite}}
+\end{center}
+
+%--------------------------------------------------------------
+%     Education
+%--------------------------------------------------------------
+\section{Education}
+% Put school first and degree second if your school is reputable
+\educationHeading{B. Tech.  Computer Science and Engineering }{Kalinga Institute of Industrial Technology}{Bhubaneswar, Odisha}{Oct’ 20 - Aug’ 24 (Expected)}
+
+\cgpa{8.73/10}
+% \courseWork{Data Structures and Algorithms; Operating Systems;  Computer Security; Software Testing; Advanced Networking; Big Data Analytics}
+\sectionsep
+
+%--------------------------------------------------------------
+%     Projects
+%--------------------------------------------------------------
+\section{Projects}
+
+\projectHeading{Visitor Vault}{https://github.com/mrsayan/Visitor-Vault}{Express, Redis}
+\begin{bullets}
+    \item \textbf{Description: } Designed a scalable website analytics tool using Express and Redis, providing real-time IP logging and page view tracking, enhancing data-driven decision-making.
+    \item \textbf{Features: }  Parameterized query for total view output displayed on shields.io, automatic +1 increase in page views upon reload, and real-time IP logging to track users.
+    \item \textbf{Exposure: } \textit{Express, Rest APIs, Argon2, JWTAuthentication, MongoDB, Redis}
+\end{bullets}
+\sectionsep
+
+\projectHeading{Food Savers - Minimizing the food waste}{https://github.com/mrsayan/food-savers}{Team Project}
+{Best Beginner Team @ HackOn 2.0, Major League Hacking}
+\begin{bullets}
+    \item \textbf{Description: } Food Savers is an app designed to reduce food wastage by allowing communities to come together digitally to share food items preventing avoidable food wastage.
+    \item \textbf{Features: } Secure login using Firebase authentication, text and barcode recognition using Firebase Machine Learning Kit API, food recognition using Open Food facts API, personal virtual fridge, community sharing, messaging service, and simple UI design for easy navigation.
+    \item \textbf{Exposure: } \textit{Flutter (Dart), Tensorflow, Firebase, Firestore, Cloud Messaging, Rest APIs, Arduino}
+\end{bullets}
+\sectionsep
+
+\projectHeading{MEET-LINK}{https://github.com/mrsayan/meet-link}{Javascript, Webpack}
+\begin{bullets}
+    \item \textbf{Description: } Built and launched a Dynamic URL that streamlined the process of joining Google Meet link for students with weekly class schedules; increased student attendance by \textbf{40} percent.
+    \item \textbf{Features: } Fetch faculty name and subject code as per the class schedule, option of selecting a section, enable users to upload timetable which will sync with all users in that section, minimise search for links before joining a class.
+    \item \textbf{Impact: } \textit{Have been used by more than \textbf{300+ Students} with over \textbf{25K views} within a month.}
+\end{bullets}
+\sectionsep
+
+%--------------------------------------------------------------
+%     Experience
+%--------------------------------------------------------------
+\section{Work Experience}
+\resumeHeading{\href{https://grapixi.in/}{GRAPIXI}}{Web Developer}{Remote}{Jun 2021 - Aug 2021}
+\begin{bullets}
+    \item \textbf{Developed and maintained} a portfolio website for Grapixi (a student-led startup of VSSUT, Burla)
+    % \item Applied the \href{https://link.springer.com/chapter/10.1007/978-3-642-10838-9\_23}{mCP-ABE} encryption scheme using the \href{http://gas.dia.unisa.it/projects/jpbc/}{JPBC} library, so patients have fine-grained access control over their health records with the ability to instantly revoke access.
+    \item Lead a team of \textbf{four} (TeamClover) maintaining CI/CD of the app.
+\end{bullets}
+\sectionsep
+
+\resumeHeading{\href{https://drive.google.com/file/d/1sXqSzxHJ1IsJgRnIZT8orq066NGyx-_V/view?usp=sharing}{Crio.do}}{
+CRIO Winter Of Doing (CWoD) - Externship}{Remote}{Jan 2021 – Feb 2021}
+\begin{bullets}
+    \item Learned basics of \textbf{HTTP, REST API, Linux, Git and Amazon Web Services (AWS)}
+    \item Did modules on \textbf{HTML, CSS and JavaScript} and hosted a \textbf{portfolio} website
+    \item \textbf{Qualified} and further moved to \textbf{Stage 2} of the programme
+    
+\end{bullets}
+\sectionsep
+
+
+%--------------------------------------------------------------
+%     Achievement
+%--------------------------------------------------------------
+\section{Achievements}
+\begin{bullets}
+    \item  \textbf{\href{https://drive.google.com/file/d/1HOq5Qp5vZ7UWsvX4FxF8S1mfT6PZC0vg/view?usp=sharing/}{Google Hash Code:}} Points scored: \textit{20,92,461} , \textbf{\textit{ Global Rank 1735}} (\textit{Country Rank 488})
+    \item  \textbf{\href{https://www.codechef.com/users/mrsayan/}{Codechef:}} Max Rating: \textbf{5 star (2000)} , Best Performance: \textbf{\textit{Global Rank: 125}} in June Cook-Off 2021 Division 2
+    \item Cleared \textbf{\href{https://www.hackerrank.com/certificates/4099d9ae927f}{Problem Solving ( \textit{Intermediate} )}} and \textbf{\href{https://www.hackerrank.com/certificates/5ce743e1535f}{Node Js ( \textit{Advanced} )}} assessment by \textbf{HackerRank}
+    \item Got accepted into \textbf{\textit{AWS Machine Learning Engineer Nanodegree}} program by Udacity
+%   \item  \textbf{\href{https://www.codechef.com/users/mrsayan/}{Linkedin:}} Max Rating: \textbf{5 star (2000)} , Best Performance: \textbf{\textit{Global Rank: 125}} in June Cook-Off 2021 Division 2
+\end{bullets}
+\sectionsep
+
+%--------------------------------------------------------------
+%     Skills
+%--------------------------------------------------------------
+\section{Skills}
+\begin{skillList}
+    \singleItem{Technical:}{Java, C/C++, Python, Javascript, Mongoose, Express, React, Data Structures, Algorithms, AWS, Git}
+    \\
+    \singleItem{Non-Technical:}{Teamwork, Leadership, Versatility, Problem Solving, Chess, Painting}
+\end{skillList}
+
+% A more concise alternate 
+% \begin{skillList}
+% \item{Technical:}
+%     \\
+%     \doubleItem{Languages:}{Java, C++, Javascript}%
+%     {Databases:}{SQL, MongoDB}
+%     \\
+%     \doubleItem{Web Development:}{JavaScript, TypeScript, React, HTML/CSS}
+%     {Technology:}{Git, AWS, GCP}%
+%     \\
+%     \item{Non-Technical:}
+% \end{skillList}
+\end{document}
