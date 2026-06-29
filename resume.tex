@@ -34,11 +34,11 @@
 %--------------------------------------------------------------
 \newcommand{\yourName}{Sayan Hazra}
 % How you want it to show up on the resume
-\newcommand{\yourWebsite}{codechef/mrsayan}
+% \newcommand{\yourWebsite}{codechef/mrsayan}
 
 \newcommand{\yourWebsiteLink}{https://www.codechef.com/users/mrsayan}
 \newcommand{\yourEmail}{iamsayan568@gmail.com}
-\newcommand{\yourPhone}{+91-7278477569}
+\newcommand{\yourPhone}{+91 7278477569}
 \newcommand{\githubUserName}{mrsayan}
 \newcommand{\linkedInUserName}{mrsayan}
 
@@ -47,16 +47,17 @@
     \small \href{mailto:\yourEmail}{\underline{\yourEmail}}  $|$  \yourPhone $|$ 
     \href{https://www.linkedin.com/in/\linkedInUserName}{\underline{linkedIn/\linkedInUserName}} $|$
     \href{https://github.com/\githubUserName}{\underline{github/\githubUserName}} 
-    $|$ \href{\yourWebsiteLink}{\underline{\yourWebsite}}
+    % $|$ \href{\yourWebsiteLink}{\underline{\yourWebsite}}
      
     
 \end{center}
+
 
 %--------------------------------------------------------------
 %     Education
 %--------------------------------------------------------------
 \section{Education}
-\educationHeading{B. Tech. Computer Science and Engineering}{Kalinga Institute of Industrial Technology}{Bhubaneswar, Odisha}{Sept 2020 - Apr 2024}
+\educationHeading{B. Tech. Computer Science and Engineering}{Kalinga Institute of Industrial Technology}{Bhubaneswar, India}{Sep 2020 – Apr 2024}
 
 \cgpa{8.83/10}
 % \courseWork{Data Structures and Algorithms; Operating Systems;  Computer Security; Software Testing; Advanced Networking; Big Data Analytics}
@@ -66,45 +67,31 @@
 %     Experience
 %--------------------------------------------------------------
 \section{Work Experience}
-
-% \resumeHeading{\href{https://www.tigeranalytics.com/}{TIGER ANALYTICS}}{Software Engineer}{Chennai, India}{Nov 2024 - Present}
-% \begin{bullets}
-%     \item Drove a \textbf{30\% reduction} in ad-hoc fixes by migrating legacy pipelines to a \textbf{metadata-driven framework} in \textbf{MS Fabric}.
-%     \item Automated connection {\&} shortcuts provisioning with \textbf{Python APIs}, accelerating onboarding of data sources by \textbf{90\%}.
-%     \item Optimized refresh pipelines for large \textbf{semantic models}, improving data reliability and \textbf{reducing runtime failures}.
-% \end{bullets}
-% \sectionsep
-
-\resumeHeading{\href{https://www.tigeranalytics.com/}{TIGER ANALYTICS}}{Senior Software Engineer}{Chennai, India}{Nov 2024 - Present}
+\resumeHeading{\href{https://www.tigeranalytics.com/}{TIGER ANALYTICS}}{Senior Software Engineer}{Chennai, India}{Nov 2024 – Present}
 \begin{bullets}
-    \item Extended \textbf{Azure Databricks ingestion framework} to ingest \textbf{1,500+ tables} from SQL Server, Oracle, and SAP into analytics-ready datasets.
-    \item Implemented \textbf{CDC} using manual \textbf{watermark analysis} and framework updates to enable scalable incremental processing.
-    \item Orchestrated end-to-end ingestion pipelines using \textbf{Databricks Workflows} and \textbf{Azure DevOps CI/CD} for scheduled production runs.
-    \item Refactored legacy pipelines into a \textbf{metadata-driven MS Fabric setup}, reducing recurring production fixes by \textbf{30\%}.
-    \item Automated \textbf{Fabric connection} {\&} \textbf{shortcut provisioning} with \textbf{Platform APIs}, cutting source onboarding time by \textbf{90\%}.
+    \item Engineered \textbf{Infrastructure-as-Code} ingestion for \textbf{1,500+ tables} (SQL, Oracle, SAP) via AutoGen and Databricks Asset Bundles, \textbf{eliminating configuration drift}.
+    \item Built declarative Delta Live Tables under Unity Catalog governance, automating \textbf{SCD Type-2} temporal tracking for strict \textbf{credit analytics}.
+    \item Modernized legacy MS Fabric pipelines into \textbf{metadata-driven} execution layer, \textbf{abstracting hardcoded schemas} to cut production failures by \textbf{30\%}.
+    \item Deployed isolated \textbf{Gateway VM} with Azure Key Vault and \textbf{AES-SIV encryption}, \textbf{decoupling PII tokenization} from core compute for regulatory compliance.
+    \item Authored \textbf{dual-agent} framework wiring YData profiles to LLM via Great Expectations to \textbf{enforce data quality rules}.
+    \item Shipped \textbf{API-first} platform provisioning using FastAPI {\&} native cloud SDKs, \textbf{accelerating data onboarding} by \textbf{90\%}.
 \end{bullets}
 \sectionsep
-
 \resumeHeading{\href{https://www.linkedin.com/company/pegman/}{PEGMAN}}{Backend Engineering - Intern}{Remote}{Jan 2024 – Apr 2024}
 \begin{bullets}
-    \item Engineered \textbf{scalable backend} delivery engine with a \textbf{microservices approach} for efficient order processing.
-    % \item Designed the system architecture for \textbf{delivery engine}, empowering the platform as users' doorstep Liquor Delivery.
-    % \item Devised optimal approaches, achieving \textbf{99.8 percent} crash-free user sessions making it highly scalable and available.
-    \item Developed \textbf{8+ endpoints} across \textbf{2 microservices} integrating with \textbf{OMS} and \textbf{Aadhaar API} for e-KYC Verification.
-    \item Contributed in design iterations and product strategy, driving \textbf{data-driven decisions} and \textbf{higher client satisfaction}.
-    % \item  Engaged in product/design discussions, offering valuable \textbf{insights to impact} product development, user satisfaction.
-    % \item  Applied a customer-first approach aligning strategies with their goals  to ensure the pain points are addressed.
+    \item Built checkout APIs with Redis \textbf{asynchronous queues}, decoupling customer flow from partner fulfillment.
+    \item Optimized RDS \textbf{composite indexes} and execution plans to constrain vendor search latency strictly under \textbf{100 ms}.
+    \item Provisioned LocalStack to emulate AWS services (DynamoDB, S3) locally, reducing integration test time by \textbf{50\%}.
 \end{bullets}
 \sectionsep
 
-\resumeHeading{\href{https://drive.google.com/file/d/14vUDJCzvPunc1eGmI0NPFkZmzR82nggh/view?usp=drive_link/}{HIGHRADIUS}}{Product Engineering - Intern}{Remote}{May 2023 - Jul 2023}
+\resumeHeading{\href{https://drive.google.com/file/d/14vUDJCzvPunc1eGmI0NPFkZmzR82nggh/view?usp=drive_link/}{HIGHRADIUS}}{Product Engineering - Intern}{Remote}{May 2023 – Jul 2023}
 \begin{bullets}
-    \item Built an \textbf{AI-Enabled} FinTech B2B Invoice Management application using React, Java, and MySQL.
-    \item Deployed a payment prediction model with \textbf{80\% accuracy} via \textbf{EDA} and \textbf{Feature engineering} using Python.
+    \item Developed full-stack B2B invoice application using React and Java Servlets to \textbf{manage accounts receivable}.
+    \item Trained regression model on invoices using \textbf{feature engineering} to \textbf{forecast payment outcomes} for AR tracking.
+    \item Integrated Dialogflow NLP chatbot, applying \textbf{Intent Classification} to \textbf{automate manual invoice queries}.
 \end{bullets}
 \sectionsep
-
-
 
 
 %--------------------------------------------------------------
@@ -114,19 +101,16 @@
 
 \projectHeading{Sync Speak}{https://sync-speak.vercel.app/}{React.js, WebRTC, MongoDB}
 \begin{bullets}
-    \item Developed social audio app leveraging \textbf{WebRTC} {\&} \textbf{SocketIO} for \textbf{real-time} chat with an average \textbf{latency of 45-75ms}.
-    \item Architectured \textbf{microservices} and implemented the \textbf{MVC} pattern for improved scalability and maintainability.
-    \item Orchestrated \textbf{protected routes} using '\textbf{react-router-dom}' and efficient \textbf{global-state storage} using Redux.
-    \item Integrated \textbf{Twilio API} for \textbf{OTP}-based authentication over sms /email to enhance security and user verification.
+   \item Wired \textbf{WebRTC mesh} over Socket.IO signaling to relay SDP/ICE for P2P audio rooms at \textbf{sub-75 ms} peer latency.
+   \item Implemented Twilio OTP auth with \textbf{rotating JWT refresh tokens} in HttpOnly cookies to harden session integrity.
+   \item Modeled global session state in Redux with react-router \textbf{protected routes}, gating rooms to authenticated peers.
 \end{bullets}
 \sectionsep
 
 \projectHeading{Health Vault}{https://drive.google.com/file/d/1lkFZ4CTtqBathC-tjjWjZTQndRRtOzoN/view?usp=sharing}{React.js, Solidity, Ethereum}
 \begin{bullets}
-    \item Proficiently engaged in Decentralized Healthcare, developing a Electronic Health Records Management platform on Ethereum Blockchain, solving \textbf{interoperability} and \textbf{privacy} among stakeholders.
-    \item Built \textbf{easy interface} using \textbf{React} and ensured the integrity and availability of decentralized records via \textbf{IPFS}.
-    \item Utilized Solidity and \textbf{Truffle} for smart contract development and deploying locally with \textbf{Ganache} and Metamask.
-    \item Strengthened platform integrating \textbf{Aadhaar API} for \textbf{e-KYC} authentication, \textbf{countering DDoS} and \textbf{Sybil} attacks.
+    \item Built \textbf{decentralized EHR} on Ethereum, anchoring prescription files to IPFS to bypass provider data silos.
+    \item Deployed Solidity contracts via Truffle, locking record history into \textbf{immutable writes} to preserve clinical audit trails.
 \end{bullets}
 \sectionsep
 
@@ -159,11 +143,13 @@
 %--------------------------------------------------------------
 \section{Achievements}
 \begin{bullets}
-    \item  \textbf{\href{https://drive.google.com/file/d/1PHLWF7olshOeVYCrIPq_-AS-QvxKBV9m/view?usp=sharing}{Google Hash Code:}} Points scored: \textit{20,92,461} , \textbf{\textit{ Global Rank 1735}} (\textit{Country Rank 488})
-    \item  \textbf{\href{https://www.codechef.com/users/mrsayan/}{Codechef:}} Max Rating: \textbf{5 star (2000)} , Best Performance: \textbf{\textit{Global Rank: 125}} in June Cook-Off 2021 Division 2
-    \item Cleared \textbf{\href{https://www.hackerrank.com/certificates/4099d9ae927f}{Problem Solving ( \textit{Intermediate} )}} and \textbf{\href{https://www.hackerrank.com/certificates/5ce743e1535f}{Node Js ( \textit{Advanced} )}} assessment by \textbf{HackerRank}.
-    \item 
-    Qualified for \textbf{\href{https://drive.google.com/file/d/1nG47kEjyQut83Ep9Tz-li2tB_1fTugOQ/view?usp=sharing}{Level 2 in Flipkart GRiD 5.0}} - Health+ Track, the \textbf{\textit{only team}} from the college to do so.
+    \item \textbf{\href{https://drive.google.com/file/d/1PHLWF7olshOeVYCrIPq_-AS-QvxKBV9m/view?usp=sharing}{Google Hash Code:}} Secured \textbf{Global Rank 1735} (Country Rank 488) with 2,092,461 points.
+    \item \textbf{\href{https://www.codechef.com/users/mrsayan/}{Codechef:}} Achieved \textbf{5-star rating} (2000) and \textbf{Global Rank 125} in June Cook-Off 2021 (Div 2).  
+    \item Cleared \textbf{\href{https://www.hackerrank.com/certificates/4099d9ae927f}{Problem Solving (\textit{Intermediate})}} and \textbf{\href{https://www.hackerrank.com/certificates/5ce743e1535f}{Node Js (\textit{Advanced})}} assessment by \textbf{HackerRank}.
+    \item Earned \textbf{\href{https://portal.itscredible.com/qr/011935087616}{BFS Credit Risk DB-202}} and \textbf{\href{https://portal.itscredible.com/qr/364557169231}{BFS Foundation DB-100}} assessment by \textbf{Tiger Analytics}.
+    \item Certified in \textbf{\href{https://www.coursera.org/account/accomplishments/records/WPEUHLLDD3BS}{Advanced System Security}} and \textbf{\href{https://www.coursera.org/account/accomplishments/records/6WN5KEGURZS9}{Cloud Computing Security}} by \textbf{University of Colorado}.
+    % \item 
+    % Qualified for \textbf{\href{https://drive.google.com/file/d/1nG47kEjyQut83Ep9Tz-li2tB_1fTugOQ/view?usp=sharing}{Level 2 in Flipkart GRiD 5.0}} - Health+ Track, the \textbf{\textit{only team}} from the college to do so.
     % \item Got accepted into \textbf{\textit{AWS Machine Learning Engineer Nanodegree}} program by Udacity
 \end{bullets}
 \sectionsep
@@ -173,25 +159,23 @@
 %--------------------------------------------------------------
 \section{Skills}
 % \begin{skillList}
-%     \doubleItem{Languages:}{Java, JavaScript/TypeScript, Python, SQL}%
-%     {Databases:}{MySQL, PostgreSQL, MongoDB, Redis, IPFS}
+%     \singleItem{Technical:}{Java, Javascipt/Typescript, Solidity, SQLite, MongoDB, Redis, Express.js, React/Next.js, Truffle, Docker, AWS (S3, EC2), Git}
 %     \\
-%     \singleItem{Technologies:}{React, Redux, MS Fabric, Azure DevOps, Postman}
+%     \singleItem{Non-Technical:}{Teamwork, Leadership, Versatility, Problem Solving, Chess, Painting}
 % \end{skillList}
 
 % A more concise alternate 
 \begin{skillList}
-    \singleItem{Languages:}{Java, Python, SQL, TypeScript (Basics)}
-    \\
-    \singleItem{Databases:}{PostgreSQL, MySQL, Oracle, MongoDB, Redis}
-    \\
-    \singleItem{Technologies:}{PySpark, Azure (Databricks, ADF, DevOps), MS Fabric, React/Redux, WebRTC, Postman}
-    \\
-    \singleItem{Development:}{REST API, Microservices, Docker, Queues, Git}
-    % \doubleItem{Technologies:}{PySpark, Azure (Databricks, ADF, DevOps),}%
-    % {Development:}{REST API, Microservices, Docker, Queues, Git}
+% \item{Technical:}
     % \\
-    % \doubleItem{\phantom{Technologies:}}{MS Fabric, React/Redux, WebRTC, Postman}%
-    % {}{}
+    \doubleItem{Languages:}{Python, SQL, PySpark, Java, TypeScript}%
+    {Data:}{MS Fabric, Databricks, Spark, Airflow, dbt, PostgreSQL, Pinecone}
+    \\
+    \doubleItem{Frameworks:}{FastAPI, React, Node.js, LangChain, MLflow}
+    {Cloud:}{Azure (ADF, ADLS), Terraform, Docker, Redis, CI/CD}%
+    \\
+    % \doubleItem{Softskills:}{Teamwork, Leadership, Versatility, Problem Solving, Chess, Painting}
+    % {}{}%
+    
 \end{skillList}
 \end{document}

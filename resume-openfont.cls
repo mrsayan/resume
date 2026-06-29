@@ -35,7 +35,6 @@
 % section
 \titlespacing{\section}{0pt}{0pt}{0pt}
 \titleformat{\section}{%
-\vspace{-2pt}% 
 \color{headings}% Using comments to allow us to split the command across multiple line
 \scshape%
 \customLatoLight%
@@ -139,7 +138,7 @@
 
 %--------------------------------------------------------------
 % Section separators command
-\newcommand{\sectionsep}[0]{\vspace{4.5pt}}
+\newcommand{\sectionsep}[0]{\vspace{6pt}}
 
 %--------------------------------------------------------------
 % Bullet Lists with fewer gaps command
@@ -147,7 +146,7 @@
 \vspace{-1mm}
 \begin{itemize}
 \itemsep1pt 
-\parskip1.3pt 
+\parskip1.5pt 
 \parsep1.5pt
 }{
 \end{itemize}
